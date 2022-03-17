@@ -4,12 +4,8 @@ body {
     min-width: 375px;
   }
 
-#pro-sec {
-    background-color: rgb(242,252,249);
-}
-#pro-sec .our-p {
-    margin: 20px;
-}
+.section-programm { background-color: #F2FCF9;
+padding: 10px;}
 .ourp-b {
     color: green;
     text-decoration: none;
@@ -69,16 +65,46 @@ body {
     background-size: cover;
     text-align: center;
 }
+.carobutton {
+    display: none;
+}
+.caroul-s {
+    margin: 40px;
+}
        }
      /* tablet */
 /* laptop */
 @media (min-width: 992px){
-   
+    .caroul-s {
+        margin: 200px;
+    }
     .bblap {
         margin-left: 20rem;
     }
     .carousel-image img{
         display: block;
     }
+    .carobutton {
+        display: block;}
+
+        .carousel-text1 {
+            background:#FCF4F1;
+            color: black;
+            background-size: cover;
+            text-align: center;
+        }
+        .carousel-text2 {
+            background: #F2FCF9;
+            color: black;
+            background-size: cover;
+            text-align: center;
+        }
+        
+        .carousel-text3 {
+            background: #FCF4F1;
+            color: black;
+            background-size: cover;
+            text-align: center;
+        }
    
 }
