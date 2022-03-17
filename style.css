@@ -4,9 +4,45 @@ body {
     box-sizing: border-box;
     min-width: 375px;
   }
-  
+
+#pro-sec {
+    background-color: rgb(242,252,249);
+}
+#pro-sec .our-p {
+    margin: 20px;
+}
+.ourp-b {
+    color: green;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #DBF9EA;
+}
+.card-title {
+    color: #F9AE00;
+}
+.everything {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(/Photos/Photos/about1ed.jpg);
+      color: white;
+      
+}
+.about-row {
+    background-color: #FEFBF5;
+}
+.news-top {
+    background-color: #F9ECDC;}
+
+
+
   @media (min-width: 375px) {
-    .navbar-brand span {
-      display: none;}
+    .navbar-brand span { display: none; }
       }
-    }
+      .card1-section .programme {
+          text-align: center;
+      }
+      /* footer */
+     .links {
+         color: white;
+     }
